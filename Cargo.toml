@@ -1,0 +1,10 @@
+[package]
+name = "radio-coding"
+version = "0.1.0"
+edition = "2021"
+
+
+[features]
+radio-python = []
+
+[dependencies]
