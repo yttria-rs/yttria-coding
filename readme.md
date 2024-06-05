@@ -1,15 +1,13 @@
 # yttria-math
 
 Yttria sets out to be an end-to-end wireless communications DSP library for developing custom and
-novel radio solutions, particularly regarding Software Defined Radios. Yttria-math is the subcrate
-of the Yttria framework responsible for the mathematical heavy lifting involved. Many of the
-functions of Yttria-math are directly analogous to those found in Numpy or Scipy, since those
-libraries are particularly well suited for the task.
+novel radio solutions, particularly regarding Software Defined Radios. Yttria-coding is the subcrate
+responsible for the codes commonly used in electrical and wireless communications engineering for
+their autocorrelation or error correction utility.
 
-One of the goals of this crate is to make DSP easy with as little extra consideration as possible.
-The result is that no custom structs have been made for the purpose of DSP, instead simply offering
-extension traits on any iterable that contains a number (so determined by the `num` crate), and is
-`send + sync + copy + clone` so that a lot of the heavy lifting can be done using `rayon`.
+The goals of this subcrate are somewhat ambitious, hoping to port much of the functionality present
+in the renowned [aff3ct](https://aff3ct.github.io/) library to the rust ecosystem, with a focus on
+utility within Yttria, but otherwise still useful.
 
 ## Why Yttria?
 
