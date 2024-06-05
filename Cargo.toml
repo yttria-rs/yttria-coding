@@ -1,6 +1,6 @@
 [package]
 name = "yttria-coding"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Trevor Klingler"]
 description = "A mathematical coding library tailored for use with the yttria set of libraries"
 readme = "readme.md"

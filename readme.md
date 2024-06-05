@@ -1,4 +1,4 @@
-# yttria-math
+# yttria-coding
 
 Yttria sets out to be an end-to-end wireless communications DSP library for developing custom and
 novel radio solutions, particularly regarding Software Defined Radios. Yttria-coding is the subcrate
